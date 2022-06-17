@@ -1,0 +1,221 @@
+@import url('https//fonts.google.com/specimen/Poppins');
+main{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    }
+    .left{
+        text-align: left;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        color: white;
+        font-family: Poppins;
+    }
+
+.right{
+    text-align: right;
+    width: 40%;
+    padding: 4em;
+}
+.top{
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    margin: auto;
+    padding: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.content{
+    background-color: white;
+    margin-top: 3%;
+    padding: 1em;
+    height: 55vh;
+    border-radius: 5px;
+}
+
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-color: hsl(246, 25%, 77%);
+    border-radius: 5px;
+    
+}
+h1{
+    line-height: 1em;
+}
+p{
+    font-size: 12px;
+}
+.t{
+    font-size: 12px;
+    text-align: center;
+}
+.btn{
+    width: 85%;
+    padding: 12px 12px;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline;
+}
+@media(max-width:375px){
+.left{
+    display:flex;
+    flex-direction:column;
+}
+.right{
+    display:flex;
+    flex-direction:column;
+}
+
+.input-field {
+    width: 60%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-color: hsl(246, 25%, 77%);
+    border-radius: 5px;}
+    
+h1{
+    line-height: 0.5em;
+}
+p{
+    font-size: 10px;
+}
+.t{
+    font-size: 10px;
+    text-align: center;
+}
+.btn{
+    width: 60%;
+    padding: 10px 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline;
+}
+}
+            /*514p*/
+@media(max-width:514px)
+{
+    .left{
+        display:flex;
+        flex-direction:column;
+    }
+    .right{
+        display:flex;
+        flex-direction:column;
+    }
+    h1{
+        line-height: 0.5em;
+    }
+    p{
+        font-size: 10px;
+    }
+    .t{
+        font-size: 10px;
+        text-align: center;
+    }
+    .input-field {
+        width: 60%;
+        padding: 10px;
+        margin-top: 20px;
+        margin-right: 20px;
+        align-items: center;
+        border-color: hsl(246, 25%, 77%);
+        border-radius: 5px;
+    }
+        
+    .btn{
+        width: 60%;
+        padding: 10px 1px;
+        margin-top: 10px;
+        margin-right: 10px;
+        align-items: center;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        border: none;
+        text-align: center;
+        display: inline;
+    }
+}
+
+@media(max-width:1140px){
+  
+    .left{
+        text-align: left;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        color: white;
+        font-family: Poppins;
+    }
+
+.right{
+    text-align: right;
+    width: 40%;
+    padding: 4em;
+}
+.input-field {
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-color: hsl(246, 25%, 77%);
+    border-radius: 5px;
+    
+}
+h1{
+    line-height: 1em;
+}
+p{
+    font-size: 12px;
+}
+.t{
+    font-size: 12px;
+    text-align: center;
+}
+.btn{
+    width: 85%;
+    padding: 12px 12px;
+    margin-top: 20px;
+    margin-right: 20px;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline;
+}
+}
